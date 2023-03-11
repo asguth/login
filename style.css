@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background-image: url(imagens/background.png);
 }
@@ -5,12 +10,10 @@ body {
 #container {
 	width: 400px;
 	height: 400px;
-	background-color: rgba(255,255,255,0.3);
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 1em;
 	margin: 0 auto;
-	margin-top: 120px;
+	margin-top: 10em;
 	text-align: center;
 }
 
@@ -24,7 +27,7 @@ body {
 input {
 	height: 40px;
 	width: 80%;
-	font-size: 18px;
+	font-size: 1em;
 	margin-bottom: 10px;
 	background-color: #fff;
 	padding-left: 40px;
@@ -43,7 +46,6 @@ input.senha {
 
 input.submit {
 	color: #fff;
-	background-color: #f79300;
 	padding: 5px 20px;
 	height: 45px;
 	width: 90%;
@@ -53,6 +55,7 @@ input.submit {
 
 input.submit:hover {
 	background: #84c126;
+	cursor: pointer;
 }
 
 h3{
